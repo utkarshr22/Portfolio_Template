@@ -1,0 +1,165 @@
+body {
+  /* 0 Margin applied to all 4 sides
+    ================================================== */
+  margin: 0;
+
+  /* Aligns all text inside body as center 
+    ================================================== */
+  text-align: center;
+
+  color: black;
+
+  /* filter: brightness(0%); */
+
+  /* Sets the font family as sans-sherif and specifies various font dtlyes to be used in body section
+    ================================================== */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro {
+  margin-bottom: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  color: #66bfbf;
+  margin: 0 auto 0 auto;
+  font-family: "Pacifico", cursive;
+  font-size: 4rem; /* 100% is equivalent to 16px, which is equivalent to 1em. Can either use 400% or 4em. */
+  /* rem is used to specify size only for this class. This is overwrite the previous defined sizes. */
+  line-height: 4rem;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 25px auto 30px auto;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  line-height: 2;
+}
+
+/* img {
+  filter: brightness(50%);
+} */
+
+.project-row {
+  width: 50%;
+  margin: auto auto 50px auto;
+  text-align: left;
+}
+
+.binary-code-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 25px auto 40px;
+}
+
+.contact-me {
+  padding-bottom: 75px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.top-container {
+  color: white;
+
+  padding: 100px 0 40px;
+
+  /* linear-gradient() function for darkening the background image
+     Used to insert background image
+    ================================================== */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/intro-bg.jpg");
+
+  /* Specifies that bg should not repeat itself if the dimension is smaller 
+    ================================================== */
+  background-repeat: no-repeat;
+
+  /* Adjusts the width and height of bg image respectively
+    ================================================== */
+  background-size: 100% 100%;
+}
+
+.middle-container {
+  background-color: rgb(255, 254, 224);
+  padding: 25px 0 0 0;
+}
+
+.bottom-container {
+  background-color: #1b2430;
+  padding: 40px 0 20px;
+}
+
+.footer-link {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+}
